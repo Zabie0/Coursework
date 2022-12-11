@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.staryy.coursework.Controllers.MenuController">
+   <children>
+      <AnchorPane layoutY="104.0" prefHeight="296.0" prefWidth="600.0" style="-fx-background-color: DarkBlue;">
+         <children>
+            <Button fx:id="displayInfoButton" layoutX="31.0" layoutY="15.0" mnemonicParsing="false" onAction="#displayInfoFunction" prefHeight="33.0" prefWidth="234.0" style="-fx-background-color: Gray;" text="Display info" textFill="WHITE" AnchorPane.leftAnchor="40.0">
+               <font>
+                  <Font size="23.0" />
+               </font></Button>
+            <Button fx:id="chooseCreditButton" layoutX="31.0" layoutY="69.0" mnemonicParsing="false" onAction="#chooseCreditFunction" prefHeight="33.0" prefWidth="234.0" style="-fx-background-color: Gray;" text="Choose credit" textFill="WHITE" AnchorPane.leftAnchor="40.0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="depositButton" layoutX="31.0" layoutY="123.0" mnemonicParsing="false" onAction="#depositFunction" prefHeight="33.0" prefWidth="234.0" style="-fx-background-color: Gray;" text="Deposit" textFill="WHITE" AnchorPane.leftAnchor="40.0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="payButton" layoutX="31.0" layoutY="177.0" mnemonicParsing="false" onAction="#payFunction" prefHeight="33.0" prefWidth="234.0" style="-fx-background-color: Gray;" text="Pay debt" textFill="WHITE" AnchorPane.leftAnchor="40.0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="extendCreditLineButton" layoutX="31.0" layoutY="231.0" mnemonicParsing="false" onAction="#extendCreditLineFunction" prefHeight="33.0" prefWidth="234.0" style="-fx-background-color: Gray;" text="Extend credit line" textFill="WHITE" AnchorPane.leftAnchor="40.0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="addBankButton" layoutX="338.0" layoutY="15.0" mnemonicParsing="false" onAction="#addBankFunction" prefHeight="33.0" prefWidth="234.0" style="-fx-background-color: Gray;" text="Add  bank" textFill="WHITE" AnchorPane.rightAnchor="40.0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="addCreditButton" layoutX="338.0" layoutY="69.0" mnemonicParsing="false" onAction="#addCreditFunction" prefHeight="33.0" prefWidth="234.0" style="-fx-background-color: Gray;" text="Add credit" textFill="WHITE" AnchorPane.rightAnchor="40.0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="showAllBanksButton" layoutX="338.0" layoutY="123.0" mnemonicParsing="false" onAction="#showAllBanksFunction" prefHeight="33.0" prefWidth="234.0" style="-fx-background-color: Gray;" text="Show all banks" textFill="WHITE" AnchorPane.rightAnchor="40.0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="showCreditsButton" layoutX="338.0" layoutY="177.0" mnemonicParsing="false" onAction="#showCreditsFunction" prefHeight="33.0" prefWidth="234.0" style="-fx-background-color: Gray;" text="Show credits list" textFill="WHITE" AnchorPane.rightAnchor="40.0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="showFilterCreditsButton" layoutX="338.0" layoutY="231.0" mnemonicParsing="false" onAction="#showFilterCreditsFunction" prefHeight="33.0" prefWidth="234.0" style="-fx-background-color: Gray;" text="Show filter credits" textFill="WHITE" AnchorPane.rightAnchor="40.0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+      <Label alignment="CENTER" layoutX="167.0" layoutY="11.0" prefHeight="87.0" prefWidth="266.0" text="Menu" textFill="WHITE">
+         <font>
+            <Font size="64.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

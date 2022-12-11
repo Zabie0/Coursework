@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.staryy.coursework.Controllers.AddCreditController">
+   <children>
+      <AnchorPane layoutY="104.0" prefHeight="296.0" prefWidth="600.0" style="-fx-background-color: DarkBlue;">
+         <children>
+            <Button fx:id="backButton" layoutX="352.0" layoutY="232.0" mnemonicParsing="false" onAction="#backFunction" prefHeight="50.0" prefWidth="78.0" style="-fx-background-color: Gray;" text="Back" textFill="WHITE" AnchorPane.rightAnchor="14.0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="addCreditButton" layoutX="257.0" layoutY="232.0" mnemonicParsing="false" onAction="#addCreditFunction" prefHeight="50.0" prefWidth="87.0" style="-fx-background-color: Gray;" text="Add" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Label layoutX="80.0" layoutY="34.0" prefHeight="37.0" prefWidth="48.0" text="Bank" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="creditTimeField" alignment="CENTER" layoutX="300.0" layoutY="71.0" prefHeight="37.0" prefWidth="121.0" promptText="Months" />
+            <Label layoutX="176.0" layoutY="34.0" prefHeight="37.0" prefWidth="110.0" text="Extendable" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="337.0" layoutY="34.0" prefHeight="37.0" prefWidth="48.0" text="Time" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="moneyGivenField" alignment="CENTER" layoutX="448.0" layoutY="71.0" prefHeight="37.0" prefWidth="121.0" promptText="\$" />
+            <Label layoutX="445.0" layoutY="34.0" prefHeight="37.0" prefWidth="128.0" text="Money given" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="creditPercentageField" alignment="CENTER" layoutX="104.0" layoutY="155.0" prefHeight="37.0" prefWidth="121.0" promptText="Credit email" />
+            <Label layoutX="110.0" layoutY="118.0" prefHeight="37.0" prefWidth="110.0" text="Percentage" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="extendedPercentageField" alignment="CENTER" layoutX="240.0" layoutY="155.0" prefHeight="37.0" prefWidth="121.0" promptText="Credit email" text="0" />
+            <Label layoutX="257.0" layoutY="118.0" prefHeight="37.0" prefWidth="87.0" text="Ext. perc." textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="maxExtendableMoneyField" alignment="CENTER" layoutX="376.0" layoutY="155.0" prefHeight="37.0" prefWidth="121.0" promptText="Credit email" text="0" />
+            <Label layoutX="380.0" layoutY="118.0" prefHeight="37.0" prefWidth="114.0" text="Max extend" textFill="WHITE">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="bankIdField" layoutX="52.0" layoutY="71.0" prefHeight="37.0" prefWidth="104.0" />
+            <ChoiceBox fx:id="extendableField" layoutX="179.0" layoutY="71.0" prefHeight="37.0" prefWidth="104.0" />
+            <Label fx:id="hint" alignment="CENTER" layoutX="9.0" layoutY="238.0" prefHeight="37.0" prefWidth="239.0" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Label alignment="CENTER" layoutX="171.0" layoutY="14.0" prefHeight="80.0" prefWidth="258.0" text="Add credit" textFill="WHITE">
+         <font>
+            <Font size="55.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="76.0" fitWidth="115.0" layoutX="471.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/background.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="115.0" layoutX="14.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/background.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

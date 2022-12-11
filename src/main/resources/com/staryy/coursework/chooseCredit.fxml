@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.staryy.coursework.Controllers.ChooseCreditController">
+   <children>
+      <AnchorPane layoutY="104.0" prefHeight="296.0" prefWidth="600.0" style="-fx-background-color: DarkBlue;">
+         <children>
+            <Button fx:id="chooseCreditButton" layoutX="14.0" layoutY="221.0" mnemonicParsing="false" onAction="#chooseCreditFunction" prefHeight="50.0" prefWidth="115.0" style="-fx-background-color: Gray;" text="Choose" textFill="WHITE" AnchorPane.rightAnchor="471.0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="backButton" layoutX="162.0" layoutY="221.0" mnemonicParsing="false" onAction="#backFunction" prefHeight="50.0" prefWidth="115.0" style="-fx-background-color: Gray;" text="Back" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <TextArea fx:id="creditPropertiesArea" editable="false" layoutX="300.0" layoutY="71.0" prefHeight="200.0" prefWidth="266.0" promptText="Properties" style="-fx-background-color: DarkBlue;">
+               <font>
+                  <Font size="17.0" />
+               </font></TextArea>
+            <Label fx:id="idText" alignment="CENTER" layoutX="8.0" layoutY="42.0" prefHeight="58.0" prefWidth="281.0" text="ID" textFill="WHITE">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <Label layoutX="342.0" layoutY="13.0" prefHeight="58.0" prefWidth="182.0" text="Properties" textFill="WHITE">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="creditIdChoice" layoutX="56.0" layoutY="100.0" onAction="#updateFunction" prefHeight="50.0" prefWidth="182.0" promptText="Id" />
+         </children></AnchorPane>
+      <Label layoutX="136.0" layoutY="24.0" prefHeight="58.0" prefWidth="335.0" text="Choose your credit" textFill="WHITE">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

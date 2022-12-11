@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.staryy.coursework.Controllers.UserInfoController">
+   <children>
+      <AnchorPane layoutY="104.0" prefHeight="296.0" prefWidth="600.0" style="-fx-background-color: DarkBlue;">
+         <children>
+            <Button fx:id="backButton" layoutX="352.0" layoutY="232.0" mnemonicParsing="false" onAction="#backFunction" prefHeight="50.0" prefWidth="78.0" style="-fx-background-color: Gray;" text="Back" textFill="WHITE" AnchorPane.rightAnchor="14.0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Label fx:id="userBalanceText" layoutX="42.0" layoutY="14.0" prefHeight="69.0" prefWidth="534.0" text="User balance: " textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="userCreditIdText" layoutX="42.0" layoutY="83.0" prefHeight="69.0" prefWidth="534.0" text="Credit id:" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="userTimeText" layoutX="42.0" layoutY="148.0" prefHeight="69.0" prefWidth="534.0" text="Time:" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="userDebtText" layoutX="42.0" layoutY="217.0" prefHeight="69.0" prefWidth="458.0" text="Debt:" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Label layoutX="180.0" layoutY="14.0" prefHeight="83.0" prefWidth="240.0" text="User info" textFill="WHITE">
+         <font>
+            <Font size="60.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
